@@ -1,0 +1,5 @@
+<template>
+  <div>
+    <h1>Calculation Details</h1>
+  </div>
+</template>

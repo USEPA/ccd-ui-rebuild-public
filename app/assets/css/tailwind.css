@@ -1,0 +1,22 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "../primevue/tailwind.css";
+@import "tailwindcss/utilities";
+
+@layer base {
+  body {@apply bg-white;}
+  h1 {@apply text-[300.5%] font-bold text-gray-800 px-3 py-2;}
+  h2 {@apply text-[200.5%] font-bold text-gray-800 px-3 py-2;}
+  h3 {@apply text-xl text-gray-800 px-3 py-2;}
+  a { @apply text-blue-600;}
+  html {
+    @apply text-[82.5%];
+  }
+}
+
+
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}

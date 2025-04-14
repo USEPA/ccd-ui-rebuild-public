@@ -1,0 +1,8 @@
+<template>
+  <NuxtLayout :name="'chem-details'">
+    <NuxtLoadingIndicator />
+    <div>
+      <h1>Related Substances</h1>
+    </div>
+  </NuxtLayout>
+</template>
